@@ -54,6 +54,16 @@ function setupLevels() {
     tempLevel.lines.push(new Line(835,80,835,30));
     tempLevel.lines.push(new Line(375,30,835,30));
 
+    tempLevel.lines.push(new Line(160,253,240,253));
+
+  
+    tempLevel.lines.push(new Line(487,85,487,30));
+    tempLevel.lines.push(new Line(599,85,599,30));
+    tempLevel.lines.push(new Line(711,85,711,30));
+    
+
+
+
 
 
 
@@ -66,33 +76,54 @@ function setupLevels() {
     tempLevel.lines.push(new Line(1200,0,1200, 900));
 
     tempLevel.lines.push(new Line(0,900,120,900));
-    tempLevel.lines.push(new Line(30,800,30,900));
-    tempLevel.lines.push(new Line(60,800,60,900));
-    tempLevel.lines.push(new Line(90,800,90,900));
-
     tempLevel.lines.push(new Line(0,900,0,800));
     tempLevel.lines.push(new Line(120,900,120,800));
     tempLevel.lines.push(new Line(0,800,120,800));
-     
+    tempLevel.lines.push(new Line(30,900,30,800));
+    tempLevel.lines.push(new Line(60,900,60,800));
+    tempLevel.lines.push(new Line(90,900,90,800));
+    
     tempLevel.lines.push(new Line(50,350,170,350));
     tempLevel.lines.push(new Line(50,350,50,280));
     tempLevel.lines.push(new Line(170,350,170,280));
     tempLevel.lines.push(new Line(50,280,170,280));
-     
+    tempLevel.lines.push(new Line(80,350,80,280));
+    tempLevel.lines.push(new Line(110,350,110,280));
+    tempLevel.lines.push(new Line(140,350,140,280));
+    
     tempLevel.lines.push(new Line(450,670,615,670));
     tempLevel.lines.push(new Line(450,670,450,570));
     tempLevel.lines.push(new Line(615,670,615,570));
     tempLevel.lines.push(new Line(450,570,615,570));
-
+    tempLevel.lines.push(new Line(491,670,491,570));
+    tempLevel.lines.push(new Line(532,670,532,570));
+    tempLevel.lines.push(new Line(573,670,573,570));
+    
     tempLevel.lines.push(new Line(510,190,780,190));
     tempLevel.lines.push(new Line(510,190,510,85));
     tempLevel.lines.push(new Line(780,190,780,85));
     tempLevel.lines.push(new Line(510,85,780,85));
-     
+    tempLevel.lines.push(new Line(577,190,577,85));
+    tempLevel.lines.push(new Line(644,190,644,85));
+    tempLevel.lines.push(new Line(711,190,711,85));
+    
     tempLevel.lines.push(new Line(1030,900,1200,900));
+    tempLevel.lines.push(new Line(1030,850,1200,850));
+    tempLevel.lines.push(new Line(1030,800,1200,800));
+    tempLevel.lines.push(new Line(1030,750,1200,750));
+    tempLevel.lines.push(new Line(1030,700,1200,700));
+    tempLevel.lines.push(new Line(1030,650,1200,650));
+    tempLevel.lines.push(new Line(1030,600,1200,600));
+    tempLevel.lines.push(new Line(1030,550,1200,550));
+    tempLevel.lines.push(new Line(1030,500,1200,500));
+
     tempLevel.lines.push(new Line(1030,900,1030,410));
     tempLevel.lines.push(new Line(1200,900,1200,410));
     tempLevel.lines.push(new Line(1030,410,1200,410));
+    tempLevel.lines.push(new Line(1072,900,1072,410));
+//tempLevel.lines.push(new Line(1114,900,1114,410));
+//tempLevel.lines.push(new Line(1156,900,1156,410));
+
 
     //nivel 3
     levels.push(tempLevel);
@@ -105,49 +136,194 @@ function setupLevels() {
     tempLevel.lines.push(new Line(15,880,15,840));
     tempLevel.lines.push(new Line(200,880,200,840));
     tempLevel.lines.push(new Line(15,840,200,840));
+    tempLevel.lines.push(new Line(61,880,61,840));
+    tempLevel.lines.push(new Line(107,880,107,840));
+    tempLevel.lines.push(new Line(153,880,153,840));
     
     tempLevel.lines.push(new Line(265,645,380,645));
     tempLevel.lines.push(new Line(265,645,265,270));
     tempLevel.lines.push(new Line(380,645,380,270));
     tempLevel.lines.push(new Line(265,270,380,270));
+    tempLevel.lines.push(new Line(293,645,293,270));
+    tempLevel.lines.push(new Line(321,645,321,270));
+    tempLevel.lines.push(new Line(349,645,349,270));
     
     tempLevel.lines.push(new Line(205,550,270,550));
     tempLevel.lines.push(new Line(205,550,205,490));
     tempLevel.lines.push(new Line(270,550,270,490));
     tempLevel.lines.push(new Line(205,490,270,490));
+    tempLevel.lines.push(new Line(221,550,221,490));
+    tempLevel.lines.push(new Line(237,550,237,490));
+    tempLevel.lines.push(new Line(253,550,253,490));
     
     tempLevel.lines.push(new Line(265,275,310,275));
     tempLevel.lines.push(new Line(265,275,265,0));
     tempLevel.lines.push(new Line(310,275,310,0));
     tempLevel.lines.push(new Line(265,0,310,0));
+    tempLevel.lines.push(new Line(276,275,276,0));
+    tempLevel.lines.push(new Line(287,275,287,0));
+    tempLevel.lines.push(new Line(298,275,298,0));
     
     tempLevel.lines.push(new Line(0,195,85,195));
     tempLevel.lines.push(new Line(0,195,0,135));
     tempLevel.lines.push(new Line(85,195,85,135));
     tempLevel.lines.push(new Line(0,135,85,135));
+    tempLevel.lines.push(new Line(21,195,21,135));
+    tempLevel.lines.push(new Line(42,195,42,135));
+    tempLevel.lines.push(new Line(63,195,63,135));
 
     tempLevel.lines.push(new Line(520,555,605,555));
     tempLevel.lines.push(new Line(520,555,520,380));
     tempLevel.lines.push(new Line(605,555,605,380));
     tempLevel.lines.push(new Line(520,380,605,380));
+    tempLevel.lines.push(new Line(541,555,541,380));
+    tempLevel.lines.push(new Line(562,555,562,380));
+    tempLevel.lines.push(new Line(583,555,583,380));
 
     tempLevel.lines.push(new Line(780,555,870,555));
     tempLevel.lines.push(new Line(780,555,780,380));
     tempLevel.lines.push(new Line(870,555,870,380));
     tempLevel.lines.push(new Line(780,380,870,380));
+    tempLevel.lines.push(new Line(802,555,802,380));
+    tempLevel.lines.push(new Line(824,555,824,380));
+    tempLevel.lines.push(new Line(846,555,846,380));
 
-    tempLevel.lines.push(new Line(1030,555,1125,555));
-    tempLevel.lines.push(new Line(1030,555,1030,380));
-    tempLevel.lines.push(new Line(1125,555,1125,380));
-    tempLevel.lines.push(new Line(1030,380,1125,380));
+    tempLevel.lines.push(new Line(1100,750,1200,750));
+tempLevel.lines.push(new Line(1100,750,1100,575));
+tempLevel.lines.push(new Line(1200,750,1200,575));
+tempLevel.lines.push(new Line(1100,575,1200,575));
+tempLevel.lines.push(new Line(1125,750,1125,575));
+tempLevel.lines.push(new Line(1150,750,1150,575));
+tempLevel.lines.push(new Line(1175,750,1175,575));
 
     tempLevel.lines.push(new Line(780,900,1200,900));
     tempLevel.lines.push(new Line(780,900,780,840));
     tempLevel.lines.push(new Line(1200,900,1200,840));
     tempLevel.lines.push(new Line(780,840,1200,840));
+    tempLevel.lines.push(new Line(885,900,885,840));
+    tempLevel.lines.push(new Line(990,900,990,840));
+    tempLevel.lines.push(new Line(1095,900,1095,840));
+
 
     
     levels.push(tempLevel);
+
+        //Nivel 4
+    
+        tempLevel = new Level();
+        tempLevel.lines.push(new Line(0, 900, 0, 0));
+        tempLevel.lines.push(new Line(1200,0,1200,900));
+    
+        tempLevel.lines.push(new Line(0,865,95,865));
+        tempLevel.lines.push(new Line(0,865,0,640));
+        tempLevel.lines.push(new Line(95,865,95,640));
+        tempLevel.lines.push(new Line(0,640,95,640));
+        tempLevel.lines.push(new Line(23,865,23,640));
+        tempLevel.lines.push(new Line(46,865,46,640));
+        tempLevel.lines.push(new Line(69,865,69,640));
+        
+        tempLevel.lines.push(new Line(270,530,415,530));
+        tempLevel.lines.push(new Line(270,530,270,440));
+        tempLevel.lines.push(new Line(415,530,415,440));
+        tempLevel.lines.push(new Line(270,440,415,440));
+        tempLevel.lines.push(new Line(306,530,306,440));
+        tempLevel.lines.push(new Line(342,530,342,440));
+        tempLevel.lines.push(new Line(378,530,378,440));
+        
+        tempLevel.lines.push(new Line(600,250,750,250));
+        tempLevel.lines.push(new Line(600,250,600,170));
+        tempLevel.lines.push(new Line(750,250,750,170));
+        tempLevel.lines.push(new Line(600,170,750,170));
+        tempLevel.lines.push(new Line(637,250,637,170));
+        tempLevel.lines.push(new Line(674,250,674,170));
+        tempLevel.lines.push(new Line(711,250,711,170));
+        
+     
+        
+        tempLevel.lines.push(new Line(705,880,830,880));
+        tempLevel.lines.push(new Line(705,880,705,810));
+        tempLevel.lines.push(new Line(830,880,830,810));
+        tempLevel.lines.push(new Line(705,810,830,810));
+        tempLevel.lines.push(new Line(736,880,736,810));
+        tempLevel.lines.push(new Line(767,880,767,810));
+        tempLevel.lines.push(new Line(798,880,798,810));
+        
+        tempLevel.lines.push(new Line(1030,890,1200,890));
+        tempLevel.lines.push(new Line(1030,890,1030,770));
+        tempLevel.lines.push(new Line(1200,890,1200,770));
+        tempLevel.lines.push(new Line(1030,770,1200,770));
+        tempLevel.lines.push(new Line(1072,890,1072,770));
+        tempLevel.lines.push(new Line(1114,890,1114,770));
+        tempLevel.lines.push(new Line(1156,890,1156,770));
+        
+        tempLevel.lines.push(new Line(1100,470,1200,470));
+        tempLevel.lines.push(new Line(1100,470,1100,325));
+        tempLevel.lines.push(new Line(1200,470,1200,325));
+        tempLevel.lines.push(new Line(1100,325,1200,325));
+        tempLevel.lines.push(new Line(1125,470,1125,325));
+        tempLevel.lines.push(new Line(1150,470,1150,325));
+        tempLevel.lines.push(new Line(1175,470,1175,325));
+        
+    
+        levels.push(tempLevel);
+
+
+
+
+    //Nivel 5
+
+    tempLevel = new Level();
+    tempLevel.lines.push(new Line(0,900,40,900));
+tempLevel.lines.push(new Line(0,900,0,0));
+tempLevel.lines.push(new Line(40,900,40,0));
+tempLevel.lines.push(new Line(0,0,40,0));
+tempLevel.lines.push(new Line(10,900,10,0));
+tempLevel.lines.push(new Line(20,900,20,0));
+tempLevel.lines.push(new Line(30,900,30,0));
+
+tempLevel.lines.push(new Line(40,300,270,300));
+tempLevel.lines.push(new Line(40,300,40,230));
+tempLevel.lines.push(new Line(270,300,270,230));
+tempLevel.lines.push(new Line(40,230,270,230));
+tempLevel.lines.push(new Line(97,300,97,230));
+tempLevel.lines.push(new Line(154,300,154,230));
+tempLevel.lines.push(new Line(211,300,211,230));
+
+tempLevel.lines.push(new Line(430,660,600,660));
+tempLevel.lines.push(new Line(430,660,430,610));
+tempLevel.lines.push(new Line(600,660,600,610));
+tempLevel.lines.push(new Line(430,610,600,610));
+tempLevel.lines.push(new Line(472,660,472,610));
+tempLevel.lines.push(new Line(514,660,514,610));
+tempLevel.lines.push(new Line(556,660,556,610));
+
+tempLevel.lines.push(new Line(850,295,1165,295));
+tempLevel.lines.push(new Line(850,295,850,240));
+tempLevel.lines.push(new Line(1165,295,1165,240));
+tempLevel.lines.push(new Line(850,240,1165,240));
+tempLevel.lines.push(new Line(928,295,928,240));
+tempLevel.lines.push(new Line(1006,295,1006,240));
+tempLevel.lines.push(new Line(1084,295,1084,240));
+
+tempLevel.lines.push(new Line(985,897,1160,897));
+tempLevel.lines.push(new Line(985,897,985,825));
+tempLevel.lines.push(new Line(1160,897,1160,825));
+tempLevel.lines.push(new Line(985,825,1160,825));
+tempLevel.lines.push(new Line(1028,897,1028,825));
+tempLevel.lines.push(new Line(1071,897,1071,825));
+tempLevel.lines.push(new Line(1114,897,1114,825));
+
+tempLevel.lines.push(new Line(1160,897,1200,897));
+tempLevel.lines.push(new Line(1160,897,1160,0));
+tempLevel.lines.push(new Line(1200,897,1200,0));
+tempLevel.lines.push(new Line(1160,0,1200,0));
+tempLevel.lines.push(new Line(1170,897,1170,0));
+tempLevel.lines.push(new Line(1180,897,1180,0));
+tempLevel.lines.push(new Line(1190,897,1190,0));
+
+
+levels.push(tempLevel);
+
     //Nivel 4
     
     tempLevel = new Level();
@@ -285,50 +461,11 @@ function setupLevels() {
     
     levels.push(tempLevel);
     
+
     
     
-    tempLevel = new Level();
-    tempLevel.lines.push(new Line(1180, 900, 1180, 340));
-    tempLevel.lines.push(new Line(1180, 340, 960, 340));
-    tempLevel.lines.push(new Line(960, 340, 960, 400));
-    tempLevel.lines.push(new Line(960, 400, 720, 400));
-    tempLevel.lines.push(new Line(720, 400, 720, 280));
-    tempLevel.lines.push(new Line(960, 0, 960, 40));
-    tempLevel.lines.push(new Line(960, 40, 720, 280));
-    tempLevel.lines.push(new Line(740, 0, 740, 40));
-    tempLevel.lines.push(new Line(740, 40, 580, 200));
-    tempLevel.lines.push(new Line(580, 200, 580, 400));
-    tempLevel.lines.push(new Line(580, 400, 480, 400));
-    tempLevel.lines.push(new Line(480, 400, 480, 480));
-    tempLevel.lines.push(new Line(480, 480, 380, 480));
-    tempLevel.lines.push(new Line(380, 480, 380, 260));
-    tempLevel.lines.push(new Line(380, 260, 260, 260));
-    tempLevel.lines.push(new Line(260, 260, 260, 180));
-    tempLevel.lines.push(new Line(260, 180, 320, 120));
-    tempLevel.lines.push(new Line(320, 120, 380, 120));
-    tempLevel.lines.push(new Line(380, 120, 380, 0));
-    tempLevel.lines.push(new Line(220, 0, 220, 40));
-    tempLevel.lines.push(new Line(220, 40, 20, 40));
-    tempLevel.lines.push(new Line(20, 40, 20, 420));
-    tempLevel.lines.push(new Line(20, 420, 80, 420));
-    tempLevel.lines.push(new Line(80, 420, 260, 600));
-    tempLevel.lines.push(new Line(260, 600, 260, 680));
-    tempLevel.lines.push(new Line(260, 680, 480, 900));
-    tempLevel.lines.push(new Line(720, 900, 720, 520));
-    tempLevel.lines.push(new Line(720, 520, 1060, 520));
-    tempLevel.lines.push(new Line(1060, 520, 1060, 560));
-    tempLevel.lines.push(new Line(1060, 560, 920, 560));
-    tempLevel.lines.push(new Line(920, 560, 920, 860));
-    tempLevel.lines.push(new Line(920, 860, 1060, 860));
-    tempLevel.lines.push(new Line(1060, 860, 1060, 900));
-    tempLevel.lines.push(new Line(340, 600, 340, 620));
-    tempLevel.lines.push(new Line(340, 620, 460, 740));
-    tempLevel.lines.push(new Line(460, 740, 480, 740));
-    tempLevel.lines.push(new Line(480, 740, 480, 640));
-    tempLevel.lines.push(new Line(480, 640, 520, 640));
-    tempLevel.lines.push(new Line(520, 640, 520, 600));
-    tempLevel.lines.push(new Line(520, 600, 340, 600));
-    levels.push(tempLevel);
+    //Nivel 8
+
     tempLevel = new Level();
     tempLevel.lines.push(new Line(20, 0, 20, 160));
     tempLevel.lines.push(new Line(20, 160, 80, 160));

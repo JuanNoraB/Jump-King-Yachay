@@ -62,7 +62,7 @@ function preload() {
 
     snowImage = loadImage('images/snow3.png')
 
-    for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= 10; i++) {
         levelImages.push(loadImage('images/levelImages/' + i + '.png'))
     }
 

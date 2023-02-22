@@ -4,7 +4,12 @@ def cordenadas(x1,y1,x2,y2):
     print("tempLevel.lines.push(new Line("+str(x1)+","+str(y1)+","+str(x1)+","+str(y2)+"));")
     print("tempLevel.lines.push(new Line("+str(x2)+","+str(y1)+","+str(x2)+","+str(y2)+"));")
     print("tempLevel.lines.push(new Line("+str(x1)+","+str(y2)+","+str(x2)+","+str(y2)+"));")
-
+    h = y2-y1
+    w = x2-x1
+    print("tempLevel.lines.push(new Line("+str(x1+ int(w/4)*1 )+","+str(y1)+","+str(x1 + int(w/4)*1)+","+str(y2)+"));")
+    print("tempLevel.lines.push(new Line("+str(x1+ int(w/4)*2 )+","+str(y1)+","+str(x1 + int(w/4)*2)+","+str(y2)+"));")
+    print("tempLevel.lines.push(new Line("+str(x1+ int(w/4)*3 )+","+str(y1)+","+str(x1 + int(w/4)*3)+","+str(y2)+"));")
+    
 
 
 #NIVEL 1
@@ -47,9 +52,40 @@ cordenadas(520,555,605,380)
 print("")
 cordenadas(780,555,870,380)
 print("")
-cordenadas(1030,555,1125,380)
+cordenadas(1100,750,1200,575)
 print("")
 cordenadas(780,900,1200,840)
+
+
+
+#%%
+#NIVEL 4
+cordenadas(0,865,95,640)
+print("")
+cordenadas(270,530,415,440)
+print("")
+cordenadas(600,250,750,170)
+print("")
+cordenadas(705,880,830,810)
+print("")
+cordenadas(1030,890,1200,770)
+print("")
+cordenadas(1100,470,1200,325)
+
+
+#%%
+#nivel 5
+cordenadas(0,900,40,0)
+print("")
+cordenadas(40,300,270,230)
+print("")
+cordenadas(430,660,600,610)
+print("")
+cordenadas(850,295,1165,240)
+print("")
+cordenadas(985,897,1160,825)
+print("")
+cordenadas(1160,897,1200,0)
 
 # %%
 import cv2
